@@ -13,6 +13,12 @@ export default [
       lazyLoadView(import('./views/pages/registration')),
   },
   {
+    path: '/test',
+    name: 'test',
+    component: () =>
+      lazyLoadView(import('./views/pages/test')),
+  },
+  {
     path: '/login',
     name: 'login',
     component: () =>
